@@ -1,0 +1,160 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.home {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.aryan-content {
+  text-align: center;
+}
+
+.aryan-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.aryan-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Projects section */
+.projects-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.projects-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Contact Me section */
+.contact-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+
+
+
+.contact-content {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.contact-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-content form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.contact-content input,
+.contact-content textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-content input[type="submit"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-content input[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 80px;
+  right: 0px;
+  
+  width: 10%;
+  background-color: #9d9697; /* Change background color as needed */
+  z-index: 2000;
+  padding: 20px 0; /* Add padding to make it visually better */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #b0e503; /* Change hover color as needed */
+}
+body {
+  font-family: 'Arial', sans-serif; /* Change 'Arial' to your preferred font */
+}
+
+/* Specific sections with font changes */
+.home,
+.about-content,
+.projects-content,
+.contact-content {
+  font-family: 'cambria', sans-serif; /* Change 'Roboto' to your preferred font */
+}
+
+.navbar ul li a {
+  /* Font for navbar links */
+  font-family: 'Verdana', sans-serif; /* Change 'Verdana' to your preferred font */
+}

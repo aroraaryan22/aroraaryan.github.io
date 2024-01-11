@@ -1,0 +1,88 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #171414;
+  background-image: url('/Users/aryanarora/Desktop/git port/aroraaryan.github.io/my-portfolio/src/baxk.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.aryan-content {
+  text-align: center;
+  font-family: Luminari, fantasy;
+}
+
+.aryan-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-family: Luminari, fantasy; 
+}
+
+.aryan-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: 'FontAwesome'; 
+}
+
+.projects-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.projects-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(157, 150, 151, 0.7); 
+  z-index: 2000;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #f3530f; 
+}
+
+.aryan-content div {
+  margin-top: 20px; 
+}
+
+.aryan-content div a {
+  color: #fff; 
+  font-size: 36px; 
+  margin-right: 20px; 
+  text-decoration: none;
+}
+
+.aryan-content div a:hover {
+  color: #03e5a1; 
+}
+

@@ -1,0 +1,114 @@
+/* Projects.css */
+
+.projects-section {
+  background-image: url('/Users/aryanarora/Desktop/git port/aroraaryan.github.io/my-portfolio/src/image1.png');
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.projects {
+  background-image: url('/Users/aryanarora/Desktop/git port/aroraaryan.github.io/my-portfolio/src/image1.png');
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects h1 {
+  color: #f6fbf6;
+  font-size: 200%; 
+  font-weight: bold; 
+}
+
+.projects-section h2 {
+  color: #e1f4e1;
+  font-size: 40px; 
+  font-weight: bold; 
+  font-family:Impact, fantasy	;
+
+}
+
+
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; 
+  margin: 20px auto;
+}
+
+.projectItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Impact, fantasy;
+color: rgb(239, 245, 251);
+background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.projectItem:hover {
+  box-shadow: 0px 3px 15px rgba(231, 181, 181, 0.5);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.projectItem .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectItem h1 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: aliceblue;
+  font-family: Impact, fantasy;
+
+}
+
+.projectItem h2 {
+  font-size: 200%;
+  margin-bottom: 10px;
+  font-family: Impact, fantasy;
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .projectList {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .projectItem:nth-child(odd) {
+    justify-self: start; 
+  }
+  
+  .projectItem:nth-child(even) {
+    justify-self: end; 
+  }
+  .projectItem:nth-child(2) {
+    margin-bottom: 300px;
+  }
+}

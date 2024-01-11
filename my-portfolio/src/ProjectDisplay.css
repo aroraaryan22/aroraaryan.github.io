@@ -1,0 +1,38 @@
+
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f7f8fd;
+}
+
+.project h1 {
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: Impact, fantasy;
+
+}
+
+.project img {
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-top: 20px; 
+}
+
+.project p {
+  font-size: 40px;
+  margin-top: 20px; 
+  font-family: Impact, fantasy;
+
+}
+
+.project svg {
+  font-size: 60px;
+  font-family: Impact, fantasy;
+
+}

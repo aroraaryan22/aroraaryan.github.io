@@ -1,0 +1,41 @@
+.projectList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+  
+  .projectItem {
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(238, 4, 4, 0.2);
+    text-align: center;
+    padding: 20px;
+    height: 80%;
+    margin-bottom: 40px;
+  }
+  
+  .projectItem:hover {
+    box-shadow: 0px 3px 15px rgba(212, 110, 110, 0.5);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .projectItem img {
+    width: 140%;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+  }
+  
+  .projectItem h1 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #faf3f3;
+    font-family: Marker Felt, fantasy;
+  }
+  
+  .projectItem h2 {
+    font-size: 1em;
+    color: #fcfafa;
+    font-family: Impact, fantasy;
+  }

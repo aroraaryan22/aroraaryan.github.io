@@ -1,0 +1,29 @@
+.about-content {
+  text-align: center;
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  color: #121113;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: azure;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: aliceblue;
+  font-family: 'Helvetica', Arial, sans-serif; 
+}
+
+.about-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Impact, fantasy	; 
+}
